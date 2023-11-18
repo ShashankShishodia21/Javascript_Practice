@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;     
+}
+* {
+   font-family: 'Metal Mania', Times, serif;
+   padding: 0px;
+   margin: 0px;
+   list-style: none;
+   color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.cursor {
+    height: 200px;
+    width: 200px;
+    z-index: 11111;
+    border-radius: 50%;
+    background-color: white;
+    mix-blend-mode: difference;
+    position: absolute;    
+    transition: all linear 0.2s;
+}
+#main h1{
+    font-size: 9vw;
+    font-size: 900;
+}
